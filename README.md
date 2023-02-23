@@ -4,7 +4,7 @@
 
 ## ⚡ 简介
 
-一个免费开源的中后台管理系统模板，基于 Vue3、TypeScript、Element Plus、Pinia 和 Vite 等主流技术.
+一个免费开源的后台管理系统模板，基于 Vue3、TypeScript、Element Plus、Pinia 和 Vite 等主流技术.
 
 - 地址: [vue3-admin-vite](https://github.com/5Iris5/vue3-admin-vite)
 

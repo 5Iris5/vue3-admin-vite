@@ -173,4 +173,4 @@ vue3-admin-vite
 
 [MIT](./LICENSE)
 
-Copyright (c) 2022 [pany](https://github.com/pany-ang)
+Copyright (c) 2022 [IrisLong](https://github.com/5Iris5)

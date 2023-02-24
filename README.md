@@ -31,7 +31,7 @@
 - **多环境**：开发环境（development）、预发布环境（staging）、正式环境（production）
 - **双主题**：内置普通、暗黑两种主题模式
 - **错误页面**: 404
-- **其他内置功能**：动态菜单栏、标签页快捷导航、Screenfull 全屏、自适应收缩侧边栏、SVG等
+- **其他内置功能**：动态菜单栏、标签页快捷导航、Screenfull 全屏、自适应收缩侧边栏、SVG 等
 
 ## 📚 文档
 
@@ -49,7 +49,7 @@
 2. pnpm 版本 7.x
 
 # 克隆项目
-git clone 
+git clone
 
 # 进入项目目录
 cd vue3-admin-vite

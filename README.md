@@ -166,8 +166,6 @@ vue3-admin-vite
 ## ✔️ 项目预览图
 
 ![preview1.png]()
-![preview2.png]()
-![preview3.png]()
 
 ## 📄 License
 

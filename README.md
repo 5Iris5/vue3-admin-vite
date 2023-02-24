@@ -4,11 +4,11 @@
 
 ## ⚡ 简介
 
-一个免费开源的中后台管理系统模板，基于 Vue3、TypeScript、Element Plus、Pinia 和 Vite 等主流技术.
+一个可供直接使用的后台管理系统模板，基于 Vue3、TypeScript、Element Plus、Pinia 和 Vite 等主流技术.
 
 - 地址: [vue3-admin-vite](https://github.com/5Iris5/vue3-admin-vite)
 
-## 特性
+## 🌠 特性
 
 - **Vue3**：采用 Vue3 + script setup 最新的 Vue3 组合式 API
 - **Element Plus**：Element UI 的 Vue3 版本
@@ -24,7 +24,7 @@
 - **Axios**：发送网络请求（已封装好）
 - **注释**：各个配置项都写有尽可能详细的注释
 
-## 功能
+## ✨ 功能
 
 - **用户管理**：登录、登出演示
 - **权限管理**：内置页面权限（动态路由）、指令权限、权限函数、路由守卫
@@ -91,7 +91,7 @@ pnpm format/pnpm eslint
 pnpm git
 ```
 
-## Git 提交规范参考
+## 📝 Git 提交规范参考
 
 - `feat` 增加新的业务功能
 - `fix` 修复业务问题/BUG
@@ -107,7 +107,7 @@ pnpm git
 - `types` 类型定义文件更改
 - `wip` 开发中
 
-## 项目结构
+## 👷 项目结构
 
 ```
 vue3-admin-vite
@@ -163,14 +163,10 @@ vue3-admin-vite
 └─ vite.config.ts // vite 配置
 ```
 
-## 项目预览图
+## ✔️ 项目预览图
 
 ![preview1.png]()
-![preview2.png]()
-![preview3.png]()
 
 ## 📄 License
 
-[MIT](./LICENSE)
-
-Copyright (c) 2022 [pany](https://github.com/pany-ang)
+[MIT](./LICENSE) Copyright (c) 2023 [IrisLong](https://github.com/5Iris5)

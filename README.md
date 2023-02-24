@@ -173,4 +173,4 @@ vue3-admin-vite
 
 [MIT](./LICENSE)
 
-Copyright (c) 2022 [IrisLong](https://github.com/5Iris5)
+Copyright (c) 2023 [IrisLong](https://github.com/5Iris5)

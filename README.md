@@ -19,9 +19,11 @@
 - **PNPM**：更快速的，节省磁盘空间的包管理工具
 - **Scss**：和 Element Plus 保持一致
 - **CSS 变量**：主要控制项目的布局和颜色
-- **ESlint**：代码校验
-- **Prettier**：代码格式化
 - **Axios**：发送网络请求（已封装好）
+- **ESlint**：语法校验
+- **Prettier**：代码格式化
+- **Husky**：一款 Git Hooks 工具，可用于挂载 git 钩子
+- **Lint-Staged**：对暂存的 git 文件进行校验
 - **注释**：各个配置项都写有尽可能详细的注释
 
 ## ✨ 功能
@@ -29,6 +31,7 @@
 - **用户管理**：登录、登出演示
 - **权限管理**：内置页面权限（动态路由）、指令权限、权限函数、路由守卫
 - **多环境**：开发环境（development）、预发布环境（staging）、正式环境（production）
+- **兼容移动端**：布局兼容移动端页面分辨率
 - **双主题**：内置普通、暗黑两种主题模式
 - **错误页面**: 404
 - **其他内置功能**：动态菜单栏、标签页快捷导航、Screenfull 全屏、自适应收缩侧边栏、SVG 等
@@ -37,9 +40,9 @@
 
 [中文文档]()
 
-## 国内仓库
+## 🍀 思维导图
 
-[Gitee]()
+![web-norm.png](./src/assets/images/web-norm.png)
 
 ## 🚀 开发
 
@@ -85,9 +88,12 @@ pnpm build:prod
 
 ```bash
 # 代码格式化
-pnpm format/pnpm eslint
+> pnpm format
 
-# 代码提交git
+# 代码语法校验
+> pnpm eslint
+
+# 代码提交并推送到远程仓库
 pnpm git
 ```
 
@@ -97,15 +103,17 @@ pnpm git
 - `fix` 修复业务问题/BUG
 - `perf` 优化性能
 - `style` 更改代码风格, 不影响运行结果
+- `types` 类型定义文件更改
 - `refactor` 重构代码
 - `revert` 撤销更改
 - `test` 测试相关, 不涉及业务代码的更改
 - `docs` 文档和注释相关
 - `chore` 更新依赖/修改脚手架配置等琐事
+- `wip` 开发中
 - `workflow` 工作流改进
 - `ci` 持续集成相关
-- `types` 类型定义文件更改
-- `wip` 开发中
+- `build` 打包
+- `release` 发布
 
 ## 👷 项目结构
 

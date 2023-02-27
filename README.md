@@ -120,14 +120,7 @@ pnpm git
 ```
 vue3-admin-vite
 ├─ .husky
-├─ .gitignore
-├─ .cz-config.cjs
-├─ .eslintrc.cjs
-├─ .prettierrc   // 自动化配置项目规范(以上所有)
-├─ build        // 打包配置
-├─ index.html
-├─ pnpm-lock.yaml
-├─ package.json  // 依赖文件
+├─ .vscode
 ├─ public
 │  └─ vite.svg
 ├─ src
@@ -166,6 +159,13 @@ vue3-admin-vite
 │  ├─ App.vue
 │  ├─ main.ts
 │  └─ env.d.ts
+├─ .cz-config.cjs
+├─ .eslintrc.cjs
+├─ .gitignore
+├─ .prettierrc
+├─ index.html
+├─ package.json
+├─ pnpm-lock.yaml
 ├─ tsconfig.json
 ├─ tsconfig.node.json
 └─ vite.config.ts // vite 配置

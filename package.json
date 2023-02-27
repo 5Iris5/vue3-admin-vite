@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "format": "prettier --write \"./**/*.{vue,ts,tsx,js,jsx,json,md,html,css,less,scss}\"",
     "eslint": "eslint --fix --ext .js,.ts,.vue src",
-    "git": "git add . && git cz && git push"
+    "git": "git add . && git cz && git push",
+    "prepare": "husky install",
+    "pre-commit": "git add .husky/pre-commit"
   },
   "config": {
     "commitizen": {
@@ -36,6 +38,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^9.9.0",
+    "husky": "^8.0.3",
     "prettier": "^2.8.4",
     "typescript": "*",
     "vite": "^4.1.0",

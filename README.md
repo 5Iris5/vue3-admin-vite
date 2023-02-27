@@ -128,34 +128,43 @@ vue3-admin-vite
 │  │  ├─ logo.png
 │  │  ├─ images
 │  │  └─ css
-│  │     ├─ reset.css
-│  │     └─ element-variables.scss
+│  │     └─ global.scss    // 全局样式
+│  ├─ axios  // http 方法封装
+│  │  ├─ index.ts
+│  │  └─ request.ts
+│  ├─ components  // 公共组件
+│  │  └─ xx.vue
+│  ├─ layouts   // 布局模块
+│  │  ├─ menus
+│  │  │  ├─ asideMenu.vue
+│  │  │  ├─ asideMenuTree.vue
+│  │  │  └─ topMenu.vue
+│  │  ├─ tagsTab.vue
+│  │  └─ notFound.vue
+│  ├─ mock  // mock数据模块
+│  │  └─ login.ts
 │  ├─ presets     // 预配置-文件自动生成
 │  │  ├─ eslint
 │  │  │  └─ eslintrc-auto-import.json  // eslint配置文件
 │  │  └─ types
 │  │     ├─ auto-imports.d.ts  // api自动导入声明文件位置
 │  │     └─ components.d.ts    // 组件自动导入声明文件位置
-│  ├─ interfaces // ts类型
+│  ├─ typings // ts约束类型
 │  │  └─ index.ts
-│  ├─ api
-│  │  └─ login.ts
-│  ├─ axios  // http 方法封装
-│  │  ├─ index.ts
-│  │  └─ request.ts
-│  ├─ routers  // 路由配置
+│  ├─ routers  // 路由模块
 │  │  ├─ index.ts
 │  │  └─ route.ts
-│  ├─ stores  // 状态管理库配置
+│  ├─ stores  // 状态管理库
+│  │  ├─ modules
+│  │  │  ├─ app.ts
+│  │  │  ├─ menu.ts
+│  │  │  ├─ tagsTab.ts
+│  │  │  └─ user.ts
 │  │  └─ index.ts
 │  ├─ utils  // 公共方法
 │  │  └─ index.ts
-│  ├─ layouts   // 布局系统
-│  │  └─ notFound.vue
-│  ├─ components  // 公共组件
-│  │  └─ demo.vue
-│  ├─ views   // 业务页面
-│  │  └─ business.vue
+│  ├─ views   // 业务模块
+│  │  └─ xx.vue
 │  ├─ App.vue
 │  ├─ main.ts
 │  └─ env.d.ts
@@ -168,7 +177,7 @@ vue3-admin-vite
 ├─ pnpm-lock.yaml
 ├─ tsconfig.json
 ├─ tsconfig.node.json
-└─ vite.config.ts // vite 配置
+└─ vite.config.ts // vite 配置信息
 ```
 
 ## ✔️ 项目预览图

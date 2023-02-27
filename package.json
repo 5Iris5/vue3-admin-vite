@@ -25,7 +25,7 @@
     "*.{js,ts,vue,jsx,tsx}": "eslint",
     "*.{js,jsx,ts,tsx,md,html,css,lees,scss,sass}": [
       "prettier --write",
-      "git add .husky/pre-commit"
+      "git add"
     ]
   },
   "dependencies": {

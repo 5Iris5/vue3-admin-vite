@@ -8,7 +8,16 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "format": "prettier --write \"./**/*.{vue,ts,tsx,js,jsx,json,md,html,css,less,scss}\"",
-    "eslint": "eslint --fix --ext .js,.ts,.vue src"
+    "eslint": "eslint --fix --ext .js,.ts,.vue src",
+    "git": "git add . && git cz && git push"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./.cz-config.cjs"
+    }
   },
   "dependencies": {
     "vue": "^3.2.45"
@@ -17,6 +26,8 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.53.0",
     "@vitejs/plugin-vue": "^4.0.0",
+    "commitizen": "^4.3.0",
+    "cz-customizable": "^7.0.0",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard-with-typescript": "^34.0.0",

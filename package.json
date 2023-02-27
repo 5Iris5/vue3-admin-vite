@@ -22,11 +22,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts,vue,jsx,tsx}": "eslint",
-    "*.{js,jsx,ts,tsx,md,html,css,lees,scss,sass}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{js,jsx,ts,tsx,md,html,css,lees,scss,sass}": "prettier --write"
   },
   "dependencies": {
     "vue": "^3.2.45"

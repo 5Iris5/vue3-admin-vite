@@ -13,7 +13,7 @@ module.exports = {
     { value: '💥workflow', name: 'workflow:   工作流改进' },
     { value: '👷ci', name: 'ci:   持续集成相关' },
     { value: '📦build', name: 'build:   打包' },
-    { value: '✅release', name: 'release:  发布' }
+    { value: '✔️release', name: 'release:  发布' }
   ],
   // override the messages, defaults are as follows
   messages: {

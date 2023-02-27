@@ -24,8 +24,8 @@
   "lint-staged": {
     "*.{js,ts,vue,jsx,tsx}": "pnpm run eslint",
     "*.{js,jsx,ts,tsx,md,html,css,lees,scss,sass}": [
-      "prettier --write",
-      "git add .husky/pre-commit"
+      "git add .husky/pre-commit",
+      "prettier --write"
     ]
   },
   "dependencies": {

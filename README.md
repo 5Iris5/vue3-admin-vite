@@ -88,10 +88,10 @@ pnpm build:prod
 
 ```bash
 # 代码格式化
-> pnpm format
+pnpm format
 
 # 代码语法校验
-> pnpm eslint
+pnpm eslint
 
 # 代码提交并推送到远程仓库
 pnpm git
